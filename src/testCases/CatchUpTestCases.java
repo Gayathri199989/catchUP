@@ -83,7 +83,7 @@ public class CatchUpTestCases {
 		testresultdata.put("1", new Object[] {"S.No", "Scenario", "Expected Result","Pass/Fail"});
 	}
 	
-//	@Test
+	@Test
 	public void test001_LoginWithRegisteredUser(){
 		Log.startTestCase("Login with registered user");
 		// Start the test using the ExtentTest class object.

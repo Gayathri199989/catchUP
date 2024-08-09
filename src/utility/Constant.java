@@ -96,7 +96,6 @@ public class Constant {
 	
 	 public static String NormalDateFormat(){
     	 DateFormat dateFormat = new SimpleDateFormat("dd-MM-yy");
-		    
 		 //get current date time with Date()
 		  Date date = new Date();
 		    

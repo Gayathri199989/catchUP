@@ -16,17 +16,17 @@ public class ReadPropertyFile {
 	    }
 
 	 public String getAppLocation(){
-		 return prop.getProperty("AppLocation");
+		 return prop.getProperty("CatchUp_AppLocation");
 		  
 	 }
 	 
 	 public String getAppPackage(){
-		 return prop.getProperty("AppPackage");
+		 return prop.getProperty("CatchUp_AppPackage");
 		  
 	 }
 	 
 	 public  String getAppActivity(){
-		 return prop.getProperty("AppActivity");
+		 return prop.getProperty("CatchUp_AppActivity");
 	 }
 	 
 	 public  String getTestDataPath_CatchUp(){
@@ -58,6 +58,6 @@ public class ReadPropertyFile {
 	 }
 	 
 	 public String getDeviceName(){
-		 return prop.getProperty("DeviceName");
+		 return prop.getProperty("CatchUp_DeviceName");
 	 }
 }

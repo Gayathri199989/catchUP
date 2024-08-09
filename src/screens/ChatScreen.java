@@ -2449,6 +2449,7 @@ public class ChatScreen extends AbstractScreen{
 					Thread.sleep(Constant.Medium_Sleep);
 					if(!profileNameEdit.getText().isEmpty()){
 						profileNextBtn.click();
+						Thread.sleep(Constant.Min_Sleep);
 						if(backUPPopup.isDisplayed()){
 							yes_backUPPopup.click();
 						}
@@ -2464,6 +2465,7 @@ public class ChatScreen extends AbstractScreen{
 						if(backUpFailedPopup.isDisplayed() && popUpMsg.getText().contains("Oops! looks like that file is corrupted. Do you have any other backup file?")){
 							flag = true;
 							no_backUPPopup.click();
+							allowPermission.click();
 						}
 					}
 				}
@@ -2499,7 +2501,7 @@ public class ChatScreen extends AbstractScreen{
 						new TouchAction(driver).press(52, 100).waitAction().release().perform();
 						Thread.sleep(2000);
 						if(driver.getPageSource().contains("Open from")){
-							new TouchAction(driver).press(146, 513).waitAction().release().perform();
+							new TouchAction(driver).press(183, 596).waitAction().release().perform();
 						}
 						Thread.sleep(Constant.Min_Sleep);
 						driver.findElement(By.xpath("//android.widget.TextView[contains(@text,'pdf')][@index='0']")).click();
