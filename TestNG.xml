@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+    <test name="Tests">
+        <classes>
+            <!--<class name="com.schnell.taskassist.automation.testcases.LoginTestCase"/>
+            <class name="com.schnell.taskassist.automation.testcases.OtpTestcase"/>-->
+            <class name="com.schnell.taskassist.automation.testcases.DashBordTestcase"/>
+           <class name="com.schnell.taskassist.automation.testcases.ChatScreenTestcase"/>
+            <!--<class name="com.schnell.taskassist.automation.testcases.ProfileTestcase"/>-->
+        </classes>
+    </test>
+</suite>
